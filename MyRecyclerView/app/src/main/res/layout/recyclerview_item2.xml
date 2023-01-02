@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:background="@drawable/prod_round"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/prod_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher_round" />
+    <!--상품 이미지-->
+    <LinearLayout
+        android:id="@+id/Line2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/prod_img"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/prod_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/prod_img"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="상품 이름"
+            android:textSize="20sp" />
+        <!--상품 이름-->
+    </LinearLayout>
+    <!--상품 이름,가격-->
+    <LinearLayout
+    android:layout_width="match_parent"
+        android:layout_below="@id/Line2"
+        android:id="@+id/line3"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가격 : "
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/prod_price" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="원 "
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"/>
+    <!--상품 가격-->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/prod_note"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@id/line3"
+        android:gravity="left"
+        android:includeFontPadding="false"
+        android:text="메모메모"
+        android:textSize="14sp" />
+    <!--상품 메모-->
+</RelativeLayout>

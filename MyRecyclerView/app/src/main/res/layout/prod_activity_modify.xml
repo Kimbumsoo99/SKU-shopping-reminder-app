@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ActivityCheckProd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="300dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/image"
+            android:id="@+id/mod_img"
+            android:layout_height="200dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FF444444"
+            android:textStyle="bold"
+            android:hint="이름"
+            android:id="@+id/mod_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="가격"
+            android:id="@+id/mod_price"
+            android:nextFocusDown="@+id/mod_link"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="원 "
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="링크"
+            android:id="@+id/mod_link"
+            android:nextFocusDown="@+id/mod_note"
+            android:inputType="textUri"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="메모를 입력하세요"
+            android:id="@+id/mod_note"
+            android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mod_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/btn_star" /> //관심
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancel"
+            android:text="수정 취소"
+            android:layout_margin="8dp"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="center"/> //수정 취소
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="수정 완료"
+            android:id="@+id/btn_ok"
+            android:layout_margin="8dp"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="center"/> //수정 완료
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"> <!-- 이미지 네모 박스 만들기 -->
+    <solid android:color="#ffffff"/> <!-- 배경색 -->
+    <stroke android:width="5dp" android:color="#000000" />
+    <padding android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp" />
+    <!--  둥글게 하려면 쓰기<corners android:radius="50dp" />-->
+</shape>

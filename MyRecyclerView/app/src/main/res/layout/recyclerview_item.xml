@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/prod_round"
+    android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/prod_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:text="상품이름"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <!--상품 이름-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="가격: "
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:id="@+id/prod_price" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="원 "
+                    android:textSize="16sp"/>
+                <!--상품 가격-->
+            </LinearLayout>
+            <TextView
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/prod_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메모메모메모메모메모"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+            <!--상품 메모-->
+        </LinearLayout>
+    <!--상품 내용-->
+        <ImageView
+        android:id="@+id/prod_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"/>
+    <!--상품 이미지-->
+</LinearLayout>

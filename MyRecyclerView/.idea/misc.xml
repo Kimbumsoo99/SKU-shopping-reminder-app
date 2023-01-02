@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.145" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable-xxhdpi/btn_star.xml" value="0.3325" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/add.xml" value="0.1" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/edge.xml" value="0.105" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.153" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.144" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/menu.xml" value="0.115" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/menu_round.xml" value="0.115" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/prod_round.xml" value="0.115" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/table.xml" value="0.115" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/drawable/tablerow.xml" value="0.115" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/activity_check.xml" value="0.26666666666666666" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/activity_reg.xml" value="0.26666666666666666" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/prod_activity_check.xml" value="0.26851851851851855" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/prod_activity_modify.xml" value="0.25" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/prod_activity_reg.xml" value="0.33" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/recyclerview_item.xml" value="0.25" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/layout/recyclerview_item2.xml" value="0.33" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/menu/main_menu.xml" value="0.291005291005291" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/menu/mod_menu.xml" value="0.3515625" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/menu/reg_menu.xml" value="0.33" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_AndroMandro.xml" value="0.1" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_AndroMandro_round.xml" value="0.1" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_andromandro.xml" value="0.1005" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_andromandro_round.xml" value="0.1005" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.144" />
+        <entry key="..\:/Programfiles/Android Studio/MyRecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.115" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/drawable/add.xml" value="0.1455" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/drawable/help.xml" value="0.134" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/layout/dialog.xml" value="0.27314814814814814" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/layout/prod_activity_check.xml" value="0.33" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/layout/prod_activity_modify.xml" value="0.33" />
+        <entry key="..\:/Temp/MyRecyclerView/app/src/main/res/layout/prod_activity_reg.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/my/Desktop/MyRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/my/Desktop/MyRecyclerView/app/src/main/res/layout/prod_activity_check.xml" value="0.29814814814814816" />
+        <entry key="..\:/Users/my/Desktop/MyRecyclerView/app/src/main/res/layout/prod_activity_modify.xml" value="0.29814814814814816" />
+        <entry key="..\:/Users/my/Desktop/MyRecyclerView/app/src/main/res/layout/prod_activity_reg.xml" value="0.29814814814814816" />
+        <entry key="..\:/Users/my/Desktop/andrmandro/MyRecyclerView/app/src/main/res/drawable/image.xml" value="0.13" />
+        <entry key="..\:/Users/my/Desktop/andrmandro/MyRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/my/Desktop/andrmandro/MyRecyclerView/app/src/main/res/layout/prod_activity_check.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/my/Desktop/andrmandro/MyRecyclerView/app/src/main/res/layout/prod_activity_modify.xml" value="0.2826086956521739" />
+        <entry key="..\:/Users/my/Desktop/andrmandro/MyRecyclerView/app/src/main/res/layout/prod_activity_reg.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/my/Desktop/andrmandro/MyRecyclerView/app/src/main/res/layout/recyclerview_item.xml" value="0.3494791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
